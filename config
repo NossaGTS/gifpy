@@ -1,0 +1,7 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[remote "pi"]
+	url = ssh://gituser@normandy/home/gituser/gifpy.git
+	fetch = +refs/heads/*:refs/remotes/pi/*
