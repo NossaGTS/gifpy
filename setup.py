@@ -21,5 +21,5 @@ setup(
     package_data            = {"gifpy": ['setup.py', 'test.py']},
     license                 = "MIT",
     py_modules              = ["gifpy"],
-    dist_requires                = ["ffmpeg-python",],
+    dist_requires           = ["ffmpeg-python",],
 )
