@@ -15,7 +15,7 @@ setup(
     version                 = "0.1a",
     description             = "CLI tool to easy generate a GIF from a video.",
     long_description        = __long_description__,
-    url                     = "https://www.github.com/",
+    url                     = "hhttps://github.com/Tenj1n/gifpy",
     packages                = ["gifpy"],
     package_dir             = {"gifpy": "."},
     package_data            = {"gifpy": ['setup.py', 'test.py']},
