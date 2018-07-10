@@ -6,7 +6,7 @@ except:
     from setuptools import setup
 
 __long_description__ = """ GifPy is a simple CLI tool that generates a GIFs from a video.  
-                           Gifpy works with a URL or PATH to a video. Simple provide the path/urland 
+                           Gifpy works with a URL or PATH to a video. Simple provide the path/url and 
                            the start and end time of the frames you would like to convert to a gif """
 
 
@@ -15,7 +15,7 @@ setup(
     version                 = "0.1a",
     description             = "CLI tool to easy generate a GIF from a video.",
     long_description        = __long_description__,
-    url                     = "hhttps://github.com/Tenj1n/gifpy",
+    url                     = "https://github.com/Tenj1n/gifpy",
     packages                = ["gifpy"],
     package_dir             = {"gifpy": "."},
     package_data            = {"gifpy": ['setup.py', 'test.py']},
